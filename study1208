@@ -1,0 +1,14 @@
+/*  $ which 명령어  */
+
+//which 예시
+
+$ which httpd             //명령어 httpd의 위치
+/usr/sbin/httpd
+
+$ which m                 //별칭 m의 위치
+alias m = 'ls - al | more'
+          /bin/ls
+          /bin/more
+
+$ which pwd               //명령어 pwd의 위치
+/bin/pwd
