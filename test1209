@@ -1,0 +1,24 @@
+/* 리눅스 기본 명령어 alias(별칭) */
+
+alias[별명='명령어']
+
+$ alias m='ls - al | more'
+//ls - al | more 을 m이라는 별칭으로 설정
+
+
+
+/* 리눅스 기본 명령어 unalias(별칭제거) */
+
+unalias[옵션]      
+unalias[단축명령어]
+
+unalias m  //별칭생성한 m 별칭(명령어) 제거
+unalias -a //설정된 모든 alias 해제
+
+
+
+/* 리눅스 기본 명령어 PATH */
+
+$ echo $PATH // 설정되어 있는 PATH 확인
+$ export 변수명=$변수명:변수값 //기존 PATH에 새 경로 추가
+               //(기존):(신규경로)
