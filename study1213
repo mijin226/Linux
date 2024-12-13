@@ -1,0 +1,42 @@
+/* man [섹션] [옵션] [명령어] */
+
+//-a 예
+man -a printf          // printf와 관련된 모든 섹션 순서대로 보여줌.
+man -h [명령어]        //명령어의 간략한 도움말 출력
+man -f printf         // 명령어에 대한 간략한 요약 출력
+man -k printf         // printf 키워드 포함하는 모든 매뉴얼 항목 검색
+man -w printf         // 특정 명령어의 매뉴얼 파일경로 확인
+/*-w 예시
+man -w printf
+usr/share/man/man1/printf.1.gz*/
+man -w printf         // 특정 명령어의 매뉴얼 파일 경로 확인
+/*/usr/share/man/man1/printf.1.gz*/
+
+
+//주요 섹션 번호와 설명
+an 2 printf   // printf의 섹션 2의 man 페이지 표시
+man printf -P more // uname의 man 페이지를 more 명령을 사용해 페이지 단위로 표시
+
+
+info 명령어
+
+
+whatis 명령어
+/*
+ls (1)  -경로의 내용을 나열
+ls (1p) -list directory contents
+*/
+
+
+$ manpath
+// /usr/local/share/man:/usr/share/man/overrieds:/usr/share/man
+
+
+$ whereis [옵션] 명령어
+/* 
+$ whereis shutdown
+shutdown: /usr/sbin/shutdown /usr/share/man/man1/shutdown.2.gz...
+*/
+
+
+apropos system //명령어 매뉴얼에서 system 포함된 명령어 목록 출력
