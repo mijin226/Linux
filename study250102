@@ -1,6 +1,9 @@
 echo "file test" > test.txt
 //file test 내용이 담긴 test.txt 파일 생성
 
+mkdir [폴더명]
+//폴더(단일) 생성
+
 mkdir [폴더명1] [폴더명2]
 //폴더 다량 생성
 
