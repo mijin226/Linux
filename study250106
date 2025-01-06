@@ -1,0 +1,16 @@
+/*사용자 생성 명령어*/
+
+//명령어 useradd
+//계정을 생성하는 명령어. 명령어 adduser와 동일 기능.
+//계정자 홈 디렉터리 : /home/계정명
+//생성된 계정 정보 : /etc/passwd, /etc/shadow, /etc/group에 저장됨.
+
+useradd [옵션] 계정명
+
+//예시
+useradd -d /IHD ihd     //경로를 /IHD로하여 ihd라는 계정명으로 사용자를 만들거야.
+su - ihd                //ihd로 유저 스위치(변경). 
+cd ~                    //사용자 홈 디렉토리로 이동.
+pwd                     //현재 경로 확인
+출력값 : /IHD             //사용자 홈디렉토리 확인 => /IHD (계정자 ihd의 홈디렉터리를 /IHD로 지정)
+
