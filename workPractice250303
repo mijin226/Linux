@@ -1,0 +1,36 @@
+Oracle VM VirtualBox 활용한 RockeyLinux 9.5 버전의 OS 설치
+- 목차 -
+1. 가상머신 설치하기
+2. 운영체제 소스 다운로드
+3. 가상머신에 Rockey Linux 9.5 버전 등록하기
+4. 등록된 OS 설치 및 설정 값 세팅하면 완료!
+
+​
+1. 가상머신 설치하기
+https://www.oracle.com/kr/virtualization/technologies/vm/downloads/virtualbox-downloads.html
+
+
+2. 운영체제 소스 다운로드
+아래 링크에 접속하여 Rockey Linux 9.5 최신 버전을 다운로드합니다.
+https://rockylinux.org/ko-KR/download​
+
+
+3. 가상머신에 Rockey Linux 9.5 버전 등록하기
+ 1) ISO 파일 다운로드 될 동안, 가상머신에 Rockey Linux 버전 등록을 위해 '새로만들기' 클릭
+ 2) 새로 만들기 항목에는 해당 가상머신 이름 입력, 등록될 폴더 위치, ISO이미지, 머신에 등록할 OS가 존재
+ 3) 아직 ISO이미지는 다운로드 중이기에 공백으로 두고 다른 값 모두 세팅하기
+ 4) 하드웨어는 특수 환경 만들 건 아니기에 기본값으로 유지
+ 5) 최종 세팅값 확인 후 등록 완료 버튼 클릭!
+ 6) 등록된 가상 머신을 선택 - 설정(톱니바퀴모양) 클릭!
+ 7) 저장소 - 컨트롤러:IDE 산하 비어있음 - 속성 - 광학드라이브 라인에 CD - Choose a disk files.. 클릭!
+ 8) 다운로드 받은 ROCKEY 9.5 디스크 파일 선택
+ 9) 등록 확인 후, 확인 버튼 클릭!
+ 10) 가상머신 설정 정보에 세팅 확인하기
+
+
+4. 등록된 OS 설치 및 설정 값 세팅
+ 1) install RockeyLinux 9.5 (첫번째 줄) 클릭하여 OS를 설치합니다.
+ 2) 한국어 설정
+ 3) root 비밀번호 설정 - 대소문자,숫자,특수문자로 설정
+ 4) 설치목적지 - 기본값으로 유지
+ 5) 특수 변경필요사안 없다면 설치 시작
